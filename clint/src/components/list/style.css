@@ -1,0 +1,57 @@
+.list-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+.list-container h2 {
+  color: brown;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 800;
+  border-bottom: 1px solid brown;
+  padding: 10px;
+  padding-bottom: 0;
+}
+.list {
+  display: flex;
+  flex: 1 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+.card {
+  padding: 10px;
+  width: 40%;
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: relative;
+}
+.card h3 {
+  font-size: 1.2em;
+  color: brown;
+  width: 70%;
+  margin: 0 auto;
+}
+.card p {
+  color: brown;
+  font-size: 1em;
+  text-align: center;
+  padding: 15px;
+  overflow: hidden;
+}
+.card .card-icons {
+  display: none;
+}
+.card:hover .card-icons {
+  display: block;
+  position: absolute;
+  align-self: flex-end;
+}
+.card .card-icons span {
+  margin-left: 10px;
+  cursor: pointer;
+}
