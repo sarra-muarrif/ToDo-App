@@ -1,6 +1,6 @@
 # ToDo-App
 
-### this repository contains simple To Do List web application..
+### this repository contains simple ToDo List web application..
 
 ## Installation
 
