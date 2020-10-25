@@ -23,6 +23,6 @@
 
 ## Tech Stack
 
-##### React , Css , express , MongoDB
+##### React , CSS , express , MongoDB
 
 > ##### :red_circle: This Project Is Part Of FullStack Barmej BootCamp Education
